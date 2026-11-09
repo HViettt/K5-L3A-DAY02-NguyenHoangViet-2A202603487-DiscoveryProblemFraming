@@ -125,17 +125,17 @@ HIỆN TẠI — 9 phút/ca chụp bình thường
 
 ### Card muốn pitch nhất
 
-- Card số: #1 (Tổng hợp mốc sự kiện & deadline học tập phân tán)
-- Vì sao: Nỗi đau sát sườn của học viên trong khóa học K5, actor và bối cảnh cực kỳ gần gũi; 100% dễ dàng phỏng vấn người thật ngay trong lớp ở CP4 để kiểm chứng giả định; phân định ranh giới No AI / Rule rất rõ.
-- Câu hỏi muốn nhóm phản biện: "Vấn đề này chỉ cần Ban tổ chức lớp hoặc nhóm ghim 1 link Google Calendar chung là giải quyết được (No AI / Rule), liệu có đáng để xây dựng giải pháp AI phức tạp hơn không?"
+- Card số: #2 (Phân loại dạng bài sai khi luyện thi THPT)
+- Vì sao: Nhu cầu cực kỳ cấp thiết trong giai đoạn nước rút 2–3 tháng trước kỳ thi; học sinh tải 30–50 đề PDF nhưng lãng phí tới 45 phút mỗi đề để tự phân loại câu sai và tìm câu tương tự; đây là bài toán cần khả năng đọc hiểu ngữ nghĩa của AI chứ Rule thông thường không giải quyết được.
+- Câu hỏi muốn nhóm phản biện: "Đề thi PDF cấu trúc không đồng nhất, nhiều câu có hình vẽ đồ thị và hình học không gian, nhóm xử lý rào cản kỹ thuật này thế nào để AI không phân loại sai?"
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Card X-quang (#3) có rủi ro y tế và pháp lý cực lớn, nhóm hầu như không thể tìm được bác sĩ chẩn đoán hình ảnh thật để phỏng vấn trong 30 phút ở CP4. | Đồng ý hoàn toàn. | Xếp Card #3 xuống mức độ dự phòng (Rank 3), ưu tiên pitch Card #1 và Card #2 vì dễ tiếp cận người dùng thật hơn. |
-| Card Tổng hợp lịch (#1) thực chất là bài toán sửa quy trình truyền thông (No AI), nếu chỉ cần 1 link Google Calendar chung là xong thì đưa AI vào là thừa thãi. | Đồng ý hoàn toàn. | Đã bổ sung rõ ở phương án không dùng AI: thừa nhận No AI / Rule là tối ưu nếu lớp chuẩn hóa kênh truyền thông; giả thuyết AI chỉ phát huy tác dụng khi thông báo được viết bằng ngôn ngữ tự nhiên không theo khuôn mẫu trên các nhóm chat. |
-| Success metric của Card Luyện thi (#2) ban đầu còn chung chung ("học sinh học tốt hơn"). | Đồng ý. | Đã định lượng hóa metric thành: thời gian phân loại câu sai dưới 10 phút và gợi ý chính xác 5 câu bài tập tương tự. |
+| Card X-quang (#3) có rủi ro y tế và pháp lý cực lớn, nhóm hầu như không thể tìm được bác sĩ chẩn đoán hình ảnh thật để phỏng vấn trong 30 phút ở CP4. | Đồng ý hoàn toàn. | Xếp Card #3 xuống mức độ dự phòng (Rank 3), ưu tiên pitch Card #2 vì dễ tiếp cận người dùng thật hơn. |
+| Card Tổng hợp lịch (#1) thực chất là bài toán sửa quy trình truyền thông (No AI), nếu chỉ cần 1 link Google Calendar chung là xong thì đưa AI vào là thừa thãi. | Đồng ý hoàn toàn. | Thừa nhận No AI / Rule là tối ưu cho việc xếp lịch học; quyết định chuyển trọng tâm pitch sang Card #2 để giải quyết bài toán thực sự cần AI Workflow. |
+| Success metric của Card Luyện thi (#2) ban đầu còn chung chung ("học sinh học tốt hơn"). | Đồng ý. | Đã định lượng hóa metric thành: thời gian phân loại câu sai dưới 10 phút, độ chính xác phân loại $\ge 85\%$ và gợi ý chính xác ít nhất 3 câu bài tập tương tự từ kho đề thật. |
 
 ---
 
@@ -143,16 +143,16 @@ HIỆN TẠI — 9 phút/ca chụp bình thường
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 Problem Cards của mình (đặc biệt bảo vệ Card #2 về phân loại câu sai đề thi THPT) trong 1.5 phút/card. | Đưa bài toán phân loại đề thi THPT vào danh sách đề cử chính, tạo tiền đề để nhóm hội tụ thành công. |
+| Phản biện bài của bạn khác | Đặt câu hỏi phản biện cho Tuấn Anh (Card #4: AI chấm bài luận có đảm bảo tính sư phạm không?), Hải Anh (Card #7: ảnh bill mờ/nhàu thì OCR có đọc được không?), Danh (Card #1: nếu Ban tổ chức tạo 1 link Google Calendar chung thì bài lịch học có cần AI không?). | Giúp nhóm nhận diện sớm rủi ro công nghệ và chỉ ra bài toán lịch học bản chất chỉ cần No AI / Rule, từ đó hướng nhóm về bài toán có nút thắt AI thực sự. |
+| Nhận phản biện | Nhận câu hỏi từ Tuấn Anh và Danh: *"Đề thi PDF cấu trúc không đồng nhất, câu có hình vẽ đồ thị thì AI đọc thế nào?"* | Đề xuất giải pháp quy trình: nạp kèm văn bản lời giải chi tiết có sẵn trong đề để AI hiểu phương pháp giải, đồng thời khóa chặt đầu ra vào khung Taxonomy 35 chuyên đề chuẩn. |
+| Gom cluster / cây OST | Cùng Danh điều phối gom 12 candidate thành 4 cụm; cùng nhóm lập cây OST xác định 1 Outcome chung và gạch bỏ các giải pháp đội lốt opportunity. | Nhóm có một cây OST chuẩn xác, phân định rõ ràng giữa nhu cầu thực tế và giải pháp công cụ (gạch bỏ ý tưởng Gia sư AI tự chế đề). |
+| Chọn candidate problem | Tham gia chấm điểm shortlist 3 candidate theo 7 tiêu chí; cùng nhóm phân tích và thống nhất chọn Candidate 2 (bài toán luyện thi THPT đạt 35/35 điểm). | Nhóm đồng thuận 100% chọn bài toán phân loại câu sai đề thi THPT làm đề tài chung của cả nhóm. |
+| Kiểm chứng / research | Hỗ trợ Tuấn Anh và Hải Anh chuẩn bị kịch bản phỏng vấn The Mom Test và khảo sát 12 học sinh/gia sư; cùng phân tích kết quả sau các buổi phỏng vấn. | Thu thập được 2 insight sống còn: học sinh bỏ cuộc vì mất 45 phút mò mẫm trong đống PDF, và gia sư cảnh báo tuyệt đối cấm AI tự chế đề mới vì hay sai số liệu. |
+| Quy trình nhóm | Trực tiếp tham gia phác thảo sơ đồ quy trình Trước (Before - 180' làm + chữa) và Sau (After - Workflow 6 bước), xác định nút thắt 45 phút ở Bước 4 & 5. | Làm rõ khâu AI can thiệp (phân loại dạng bài + truy xuất câu tương tự) và ranh giới con người kiểm duyệt hình vẽ gốc (Human-in-the-loop). |
+| Problem Statement | Soạn thảo bản Problem Statement v0 và nâng cấp lên bản v1 ở CP6 (bổ sung điểm can thiệp AI, thiết lập Boundary và người kiểm tra). | Nhóm có bản mô tả bài toán sắc bén, có số liệu đo lường baseline $\rightarrow$ target rõ ràng (từ 45' xuống < 10'/đề). |
+| Mức can thiệp AI | Phân tích ma trận độ mơ hồ × độ phức tạp; đề xuất nhóm chọn mức Workflow kết hợp Rule-based thay vì chạy theo Agent. | Nhóm thống nhất chọn mức can thiệp an toàn và khả thi nhất: Rule chấm đúng/sai $\rightarrow$ AI phân loại theo Taxonomy $\rightarrow$ Con người duyệt $\rightarrow$ Rule ghi Error Log. |
+| Quyết định | Cùng cả nhóm rà soát 4 rủi ro Marty Cagan (Value, Usability, Feasibility, Viability) và xây dựng 2 ngưỡng dừng (Stop condition) cho quyết định Go. | Nhóm ra quyết định Go có căn cứ khoa học kèm kế hoạch thử nghiệm pilot 2 tuần bằng Google NotebookLM + 25 đề PDF thật chi phí 0 VNĐ. |
 
 ---
 
@@ -160,35 +160,46 @@ HIỆN TẠI — 9 phút/ca chụp bình thường
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý thêm góc nhìn theo 4 lăng kính sau khi đã tự nghĩ 5 ý tưởng ban đầu. | Gợi ý thêm bài toán đối soát tài chính TMĐT (#5) rất thực tế. | Đưa ra các ý tưởng quá rộng như *"Trợ lý AI toàn năng quản lý toàn bộ học tập"* (vi phạm nguyên tắc Problem first). | Loại bỏ ý tưởng viển vông, chỉ giữ lại các vấn đề có quy trình cụ thể và định lượng hóa số liệu đo lường ở cột dấu hiệu thật. |
+| CP2 Problem Card | Đóng vai PM hoài nghi để phản biện 3 thẻ vấn đề của tôi. | Chỉ ra rất đúng rủi ro pháp lý/y tế cực cao của thẻ X-quang và nguy cơ lạm dụng AI ở thẻ tổng hợp lịch. | Gợi ý metric chung chung kiểu "giúp học sinh học tốt hơn". | Đổi metric thành con số đo được cụ thể: rút ngắn thời gian từ 45' xuống < 10'/đề; chuyển thẻ X-quang xuống mức dự phòng. |
+| CP4 Research | Tìm kiếm các giải pháp phân loại đề thi và bài tập tương tự đã có trên thị trường. | Tìm ra được Azota, VietJack, Khan Academy và Google NotebookLM nhanh chóng. | Một số nhận định của AI chưa sát với thực tế đề thi tại Việt Nam (nghĩ rằng Azota đã tự động phân loại chuyên đề). | Tự mở tài khoản Azota kiểm tra trực tiếp, phát hiện Azota chỉ chấm A/B/C/D bằng Rule chứ không phân loại dạng bài; từ đó xác định chính xác khoảng trống công nghệ cho nhóm. |
+| CP5 Quy trình | Chuyển đổi mô tả quy trình sang sơ đồ Mermaid và ASCII trực quan. | Vẽ khung sơ đồ luồng dữ liệu nhanh và chuẩn cú pháp. | AI tự ý bỏ qua bước kiểm tra hình vẽ gốc và tự đưa ra bước "AI tự sinh đề mới" (vi phạm boundary). | Bổ sung lại bước con người kiểm duyệt hình vẽ gốc và chỉnh sửa luồng thành truy xuất đề thật từ ngân hàng PDF. |
+| CP5–6 Problem Statement | Phản biện tìm lỗ hổng trong Problem Statement v0 và v1. | Nhắc nhở kiểm tra xem có bị lẫn giải pháp vào problem không và kiểm tra tính khả thi của boundary. | Gợi ý viết lại toàn bộ Problem Statement theo giọng văn của AI mang tính quảng cáo sản phẩm. | Giữ nguyên cấu trúc bài toán của nhóm, chỉ tiếp thu phần bổ sung chỉ số kỹ thuật ($\ge 85\%$ chính xác) cho Success Metric. |
+| CP6 Mức can thiệp / quyết định | So sánh giữa Workflow và Agent; gợi ý các câu hỏi rủi ro theo Marty Cagan. | Cung cấp khung 4 rủi ro Value, Usability, Feasibility, Viability rất chuẩn mực. | AI có xu hướng xúi nhóm chọn làm "Autonomous Agent" tự chế đề thi cho "ngầu" và hiện đại. | Tôi kiên quyết bác bỏ Agent, giữ vững lựa chọn **Workflow bán tự động** vì Agent tự chế đề Toán có nguy cơ sai số liệu và vô nghiệm lên tới trên 60%. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Khi lắng nghe phần pitch của các bạn Tuấn Anh, Hải Anh và Thành Danh, tôi nhận ra mọi người đều có những quan sát rất tinh tế về những phiền toái lặp đi lặp lại xung quanh mình: từ việc chia tiền ăn uống nhóm (Hải Anh), kiểm tra định dạng nộp bài theo rubric (Tuấn Anh) đến việc lục tìm các file Word/Excel lưu rải rác (Thành Danh). Điều tôi học được nhiều nhất là: **Không phải nỗi đau nào cũng cần đến AI**. Có những vấn đề nghe qua rất nhức nhối nhưng khi bóc tách kỹ quy trình thì giải pháp tốt nhất lại là No AI (chuẩn hóa quy tắc làm việc nhóm) hoặc Rule cứng (if/else). Lắng nghe góc nhìn đa dạng giúp tôi không bị "tự yêu" ý tưởng lịch học ban đầu của mình, nhận diện được đâu là bài toán thực sự có nút thắt ngôn ngữ cần đến năng lực đọc hiểu ngữ nghĩa của AI.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có, nhóm tôi đã bị rơi vào bẫy này ngay ở đầu buổi thảo luận CP3. Khi vừa nhắc đến việc học sinh làm đề sai nhiều, hầu như bạn nào cũng hào hứng đề xuất: *"Hay nhóm mình làm một Gia sư AI Agent tự động chấm bài, tự chế ra đề mới và tự dạy kèm 24/7!"* hoặc *"Xây dựng phần mềm OCR vẽ lại toàn bộ hình học 3D từ file PDF"*. Lúc đó, bạn Thành Danh đã kịp thời nhắc lại quy tắc của cây Opportunity Solution Tree (Teresa Torres): tầng Opportunity chỉ được chứa nỗi đau và nhu cầu, cấm chứa tên công cụ hay giải pháp. Nhóm đã dừng lại, gạch bỏ các giải pháp viển vông đó và viết lại đúng nỗi đau: *"Sau khi làm đề, học sinh không định danh được dạng bài vi mô mình hay sai và mất 45 phút lục tìm câu tương tự trong hàng chục file PDF nên nản chí bỏ cuộc"*. Nhờ đó, nhóm nhận ra bản chất bài toán là bóc tách ngữ nghĩa đề bài và truy xuất tài liệu có sẵn, chứ không phải là tự chế đề hay tự động hóa toàn bộ việc dạy học.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Tôi đã đổi ý một cách rất quyết định ở CP3. Ban đầu, tôi rất nghiêng về việc chọn Card #1 (Tổng hợp lịch học K5) vì thấy nó gần gũi và có tới 3 bạn cùng đề xuất. Tuy nhiên khi Tuấn Anh và Danh phản biện sắc bén: *"Nếu nhóm chọn bài lịch học thì bản chất chỉ là tạo 1 link Google Calendar chung (No AI), liệu có đáng để làm một bài lab về AI Product không? Trong khi bài toán luyện thi THPT mới thực sự có nút thắt mà Rule bất lực"*, tôi đã khựng lại suy nghĩ và nhận thấy phản biện này hoàn toàn chính xác. Tôi đã dũng cảm từ bỏ sự an toàn của bài toán lịch học để cùng nhóm hội tụ về Card #2 (Luyện thi THPT). Đây là quyết định đúng đắn nhất của tôi trong buổi lab.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Điều làm tôi bất ngờ nhất khi phỏng vấn bạn gia sư Bách Khoa (Snapshot #2) là bạn ấy từng thử dùng ChatGPT để chế đề Toán tương tự cho học sinh, nhưng 3 câu thì hết 2 câu tính ra nghiệm lẻ ngoằng hoặc sai điều kiện xác định, khiến bạn ấy mất thêm 20 phút ngồi giải lại để kiểm tra. Phát hiện này là một "gáo nước lạnh" cảnh tỉnh nhóm: **Tuyệt đối không để AI tự sáng tác đề mới**. Một bất ngờ thứ hai là kết quả khảo sát 12 bạn: có tới 10/12 bạn tải hàng chục file đề PDF về máy nhưng chỉ làm được vài đề rồi bỏ xó vì khâu chữa bài quá mệt mỏi. Điều này khẳng định nỗi đau của người học là hoàn toàn có thật và rất cấp bách.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Điều khó nhất là **phải tách bạch hoàn toàn giải pháp ra khỏi vấn đề** và **phải thiết lập ranh giới (Boundary) nghiêm ngặt**. Thói quen thông thường của dân kỹ thuật là luôn muốn viết: *"Học sinh cần một công cụ AI để tự động tìm bài tập"*. Để gọt giũa câu chữ thành mô tả thuần túy về Actor, Bottleneck và Impact đòi hỏi sự kỷ luật tư duy rất lớn. Bên cạnh đó, việc xác định Boundary: cấm AI tự chế đề mới, ép AI phân loại vào khung Taxonomy 35 dạng bài chuẩn và bắt buộc gắn cờ câu có hình vẽ đòi hỏi nhóm phải hiểu rất sâu về domain giáo dục phổ thông.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu có cơ hội làm lại từ đầu buổi lab, tôi sẽ chuẩn bị sẵn một tệp gồm 10 file đề thi thử môn Toán có sẵn lời giải chi tiết từ trước để nhóm có dữ liệu thật kiểm chứng ngay tại chỗ ở CP4. Việc có sẵn dữ liệu đề thi thực tế sẽ giúp nhóm kiểm thử các prompt phân loại Taxonomy nhanh hơn nữa. Ngoài ra, tôi sẽ phản biện quyết liệt hơn ngay từ đầu để loại bỏ sớm các ý tưởng phụ thuộc vào hóa đơn ăn uống (vướng OCR mờ) nhằm tiết kiệm 15 phút tranh luận ở CP3.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài (Chuỗi logic cốt lõi):**
+Bài toán của nhóm xuất phát từ **Problem**: học sinh lớp 12 trong giai đoạn luyện đề nước rút thường bỏ qua khâu chữa bài và làm lại câu tương tự vì mất tới 45 phút/đề để tự phân loại thủ công và lục tìm câu hỏi cùng dạng trong hàng chục file PDF rời rạc. **Quy trình** tương lai tái cấu trúc việc chữa đề thành một Workflow bán tự động: Rule chấm điểm A/B/C/D lọc câu sai trong 1 phút $\rightarrow$ AI đọc câu hỏi + lời giải chi tiết để gắn nhãn theo Taxonomy 35 dạng bài chuẩn và truy xuất 3–5 câu cùng dạng từ kho đề PDF thật trong 1 phút $\rightarrow$ Con người kiểm tra thẻ chẩn đoán và hình vẽ gốc trong 2 phút $\rightarrow$ Rule lưu thống kê vào Google Sheets Error Log và học sinh tự tay giải lại các câu tương tự trong 40 phút. **Success Metric** đo lường bằng việc giảm thời gian thao tác từ 45 phút xuống dưới 10 phút/đề, độ chính xác phân loại $\ge 85\%$ và tỷ lệ hoàn thành giải lại đạt $\ge 80\%$. **Boundary** quy định nghiêm ngặt: AI không được tự chế đề mới (chỉ truy xuất đề thật), không tự bịa tên dạng bài ngoài Taxonomy chuẩn và bắt buộc gắn cờ câu có hình vẽ. **Mức can thiệp** là **Workflow** (Human-in-the-loop) vì No AI tốn 45 phút làm học sinh bỏ cuộc, Rule không hiểu được phương pháp toán ẩn sau câu chữ, còn Agent tự chế đề thì sai số liệu nghiêm trọng. Nhóm ra **Quyết định Go** để triển khai pilot 2 tuần trên bộ công cụ có sẵn (Google NotebookLM + 25 đề PDF + Google Sheets) với chi phí 0 VNĐ kèm 2 ngưỡng dừng an toàn.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+1. British Design Council (2005), *Double Diamond Design Process*.
+2. Rob Fitzpatrick (2013), *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you*.
+3. Teresa Torres (2021), *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value*, Product Talk LLC.
+4. Google PAIR (2019), *People + AI Guidebook*, People + AI Research, URL: [pair.withgoogle.com](https://pair.withgoogle.com).
+5. Anthropic (2024), *Building Effective Agents*, URL: [anthropic.com/research/building-effective-agents](https://www.anthropic.com/research/building-effective-agents).
+6. Marty Cagan (2017), *Inspired: How to Create Tech Products Customers Love*, Silicon Valley Product Group.
+7. Ajay Agrawal, Joshua Gans, Avi Goldfarb (2018), *Prediction Machines: The Simple Economics of Artificial Intelligence*, Harvard Business Review Press.
