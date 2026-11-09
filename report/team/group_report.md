@@ -7,7 +7,7 @@
 
 ## 1. Thông tin nhóm
 
-- **Tên nhóm:** Nhóm 04 — Lớp L3A (AI K5)
+- **Tên nhóm:** Nhóm ihihi — Lớp L3A (AI K5)
 - **Thành viên:** Xem chi tiết phân công tại [TEAM.md](../../TEAM.md)
   1. Nguyễn Hoàng Việt (MSSV: 2A202603487) — Nhóm trưởng, điều phối & viết Problem Statement
   2. Nguyễn Hải Anh (MSSV: 2A202603484) — Phụ trách kiểm chứng (The Mom Test) & Eval Dataset
@@ -383,7 +383,7 @@ Nhóm xây dựng bộ dữ liệu đánh giá gồm **10 test cases thực tế
 Không có bất kỳ rủi ro nào ở mức **Cao**. Nỗi đau đã được kiểm chứng rõ ràng với người thật việc thật trong lớp K5. Kiến trúc kỹ thuật đơn giản, tận dụng công cụ có sẵn (Discord + Google Calendar) nên thời gian xây dựng chỉ mất 1–2 ngày.
 
 **Kế hoạch Pilot nhỏ nhất (Smallest Pilot trong 2 tuần):**
-1. **Phạm vi thử nghiệm:** Áp dụng trực tiếp cho kênh chat của **Nhóm 04 và 1 nhóm bạn trong lớp L3A (khoảng 8–10 học viên)** trong đợt làm Lab Day 02 và Day 03.
+1. **Phạm vi thử nghiệm:** Áp dụng trực tiếp cho kênh chat của **Nhóm ihihi và 1 nhóm bạn trong lớp L3A (khoảng 8–10 học viên)** trong đợt làm Lab Day 02 và Day 03.
 2. **Triển khai kỹ thuật:** Dùng 1 bot Discord đơn giản (chạy script Python hoặc n8n) kết nối API Gemini Flash để lắng nghe tin nhắn trên kênh `#thông-báo-lab`.
 3. **Vận hành:** Nhóm trưởng (Nguyễn Hoàng Việt) đóng vai trò người duyệt Card; sự kiện được đồng bộ vào 1 Google Calendar chung chia sẻ cho 2 nhóm.
 4. **Theo dõi chỉ số:** Ghi nhận thời gian cập nhật lịch của các thành viên, số lần nộp bài muộn và chấm điểm 100% các tin nhắn thông báo theo bộ 4 tiêu chí Eval.

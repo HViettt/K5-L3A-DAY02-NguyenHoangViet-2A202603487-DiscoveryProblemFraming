@@ -10,7 +10,7 @@
 - **Họ và tên:** Nguyễn Hải Anh
 - **MSSV:** 2A202603484
 - **Email:** haianh29112@gmail.com
-- **Tên nhóm:** (Lớp L3A)
+- **Tên nhóm:** Nhóm ihihi (Lớp L3A)
 - **Link repo nhóm:** [https://github.com/HViettt/K5-L3A-DAY02-NguyenHoangViet-2A202603487-DiscoveryProblemFraming](https://github.com/HViettt/K5-L3A-DAY02-NguyenHoangViet-2A202603487-DiscoveryProblemFraming)
 
 ---

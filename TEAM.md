@@ -4,7 +4,7 @@
 
 ## Thông tin nhóm
 
-- **Tên nhóm:** Nhóm 04 — Lớp L3A (AI K5)
+- **Tên nhóm:** Nhóm ihihi — Lớp L3A (AI K5)
 - **Candidate problem nhóm chọn (1 câu):** Tự động bóc tách mốc sự kiện, lịch học phát sinh và hạn nộp bài tập từ các tin nhắn văn bản tự do trên kênh chat lớp (Discord/Zalo/LMS) và đồng bộ vào Google Calendar dùng chung cho học viên khóa học AI thực chiến K5.
 - **Quyết định cuối (Go / Not Yet / No-Go):** **Go, phạm vi nhỏ (Small Pilot)** — Kiến trúc Workflow bán tự động có con người duyệt 1 chạm.
 
