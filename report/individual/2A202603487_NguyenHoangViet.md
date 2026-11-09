@@ -9,8 +9,8 @@
 - Họ tên: Nguyễn Hoàng Việt
 - MSSV: 2A202603487
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm: ihihi
+- Link repo nhóm: https://github.com/HViettt/K5-L3A-DAY02-NguyenHoangViet-2A202603487-DiscoveryProblemFraming
 
 ---
 
